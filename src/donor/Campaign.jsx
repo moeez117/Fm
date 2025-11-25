@@ -119,7 +119,7 @@ const Campaign = () => {
   );
 
   return (
-    <section className="relative min-h-screen px-6 pt-32 sm:pt-36 md:pt-40 lg:pt-44">
+    <section className="relative min-h-screen px-6 pt-32 sm:pt-36 md:pt-40 lg:pt-44 overflow-hidden">
       {/* Ambient background and glow */}
       <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(transparent_1px,rgba(16,185,129,0.06)_1px)] [background-size:16px_16px]" />
       <div className="pointer-events-none absolute -top-28 -left-24 h-[26rem] w-[26rem] rounded-full bg-emerald-200/40 blur-3xl" />

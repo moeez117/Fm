@@ -14,7 +14,7 @@ const Corporate = () => {
   }, []);
 
   return (
-    <section className="relative w-full overflow-hidden bg-gradient-to-b from-white to-emerald-50/70 py-20">
+    <section className="relative w-full overflow-hidden bg-gradient-to-b from-white to-emerald-50/70 py-20 ">
       {/* Ambient glows */}
       <div className="pointer-events-none absolute -top-28 -left-28 h-[28rem] w-[28rem] rounded-full bg-emerald-200/45 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-32 -right-24 h-[24rem] w-[24rem] rounded-full bg-emerald-300/35 blur-3xl" />

@@ -51,7 +51,7 @@ const Hero = () => {
   return (
     <>
       {/* ===== Slider Hero ===== */}
-      <div className="relative">
+      <div className="relative overflow-hidden">
         <Swiper
           modules={[Autoplay, Navigation, Pagination]}
           autoplay={{ delay: 5000, disableOnInteraction: false }}
@@ -112,7 +112,7 @@ const Hero = () => {
                     <Link to="/donate">
                       <button
                         data-aos="fade-right"
-                        className="group relative p-3 sm:px-8 sm:py-4 bg-[palegreen] hover:bg-green-400 transition-all duration-300 rounded-xl shadow-lg sm:text-xl font-semibold flex items-center overflow-hidden text-green-900"
+                        className="group relative p-3 sm:px-5 sm:py-2 bg-[palegreen] hover:bg-green-400 transition-all duration-300 rounded-xl shadow-lg sm:text-xl font-semibold flex items-center overflow-hidden text-green-900"
                       >
                         <span className="relative z-10 flex items-center">
                           Donate Now
@@ -126,7 +126,7 @@ const Hero = () => {
                     <Link to="/hero">
                       <button
                         data-aos="fade-left"
-                        className="group relative sm:px-8 sm:py-4 bg-transparent border-2 border-white/60 hover:border-white hover:bg-white/20 transition-all duration-300 rounded-xl p-3 sm:text-xl font-semibold flex items-center backdrop-blur-sm text-white"
+                        className="group relative sm:px-5 sm:py-2 bg-transparent border-2 border-white/60 hover:border-white hover:bg-white/20 transition-all duration-300 rounded-xl p-3 sm:text-xl font-semibold flex items-center backdrop-blur-sm text-white"
                       >
                         <span className="relative z-10 flex items-center">
                           About Us

@@ -44,7 +44,7 @@ export default function PayOption() {
 
   return (
     <section
-      className="relative min-h-[70vh] bg-fixed bg-cover bg-center pt-24 pb-16"
+      className="relative min-h-[70vh] bg-fixed bg-cover bg-center pt-24 pb-16 overflow-hidden"
       style={{
         backgroundImage:
           "url('https://images.unsplash.com/photo-1605901309584-818e25960a8b?auto=format&fit=crop&w=1600&q=80')",
