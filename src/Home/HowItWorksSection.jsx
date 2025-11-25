@@ -120,7 +120,8 @@ export default function HowItWorksSection() {
           </h2>
           <p className="text-lg text-emerald-800/80">
             From donation to distribution — integrated with Qatar’s <b>Sandi</b>, with AML screening,
-            reconciliation, and optional blockchain proof.
+            reconciliation
+            
           </p>
         </div>
 
