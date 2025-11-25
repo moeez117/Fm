@@ -150,7 +150,6 @@ export default function HowItWorksSection() {
           </div>
         </div>
 
-        {/* stepper + controls */}
         <div className="mb-6 flex items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             <button
