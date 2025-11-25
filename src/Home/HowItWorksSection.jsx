@@ -124,7 +124,6 @@ export default function HowItWorksSection() {
           </p>
         </div>
 
-        {/* role switcher */}
         <div className="mx-auto mb-8 max-w-xl">
           <div className="relative flex items-center justify-between rounded-full bg-emerald-50 p-1 ring-1 ring-emerald-200">
             {["Donor", "Charity", "RACA"].map((r, i) => (
